@@ -73,8 +73,7 @@ validate_private_acl_and_kms_encryption_and_tags = func(required_values) {
         # Evaluate each member of required_values list
         for required_values as rv {
           if r.applied["tags"] not contains rv {
-            print("Resource", address, "has attribute", tags,
-                  "that is missing required value", rv, "from the list:",
+            print("Resource", address, "has attribute that is missing required value", rv, "from the list:",
                   required_values)
             tags_available = false
           } // end rv
