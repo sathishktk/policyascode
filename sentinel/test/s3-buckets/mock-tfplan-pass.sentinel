@@ -27,7 +27,7 @@ _modules = {
 											{
 												"apply_server_side_encryption_by_default": [
 													{
-														"kms_master_key_id": "arn:aws:kms:us-east-1:869522244151:key/171f951a-b213-4019-afc0-33f79a2627d0",
+														"kms_master_key_id": "arn:aws:kms:us-east-1:869522244151:key/xxxxxxx-4019-afc0-xxf79a2627d0",
 														"sse_algorithm":     "aws:kms",
 													},
 												],
@@ -165,7 +165,7 @@ _modules = {
 							},
 							"server_side_encryption_configuration.0.rule.0.apply_server_side_encryption_by_default.0.kms_master_key_id": {
 								"computed": false,
-								"new":      "arn:aws:kms:us-east-1:869522244151:key/171f951a-b213-4019-afc0-33f79a2627d0",
+								"new":      "arn:aws:kms:us-east-1:869522244151:key/xxxxxxx-4019-afc0-xxf79a2627d0",
 								"old":      "",
 							},
 							"server_side_encryption_configuration.0.rule.0.apply_server_side_encryption_by_default.0.sse_algorithm": {
@@ -227,7 +227,7 @@ variables = {
 	"aws_region":  "us-east-1",
 	"bucket_acl":  "private",
 	"bucket_name": "demobucket-s3-sat",
-	"kms_key_arn": "arn:aws:kms:us-east-1:869522244151:key/171f951a-b213-4019-afc0-33f79a2627d0",
+	"kms_key_arn": "arn:aws:kms:us-east-1:869522244151:key/xxxxxxx-4019-afc0-xxf79a2627d0",
 }
 
 module = func(path) {
