@@ -19,7 +19,7 @@ variable "bucket_acl" {
 
 variable "kms_key_arn" {
   description = "demo kms key"
-  default = "arn:aws:kms:us-east-1:869522244151:key/171f951a-b213-4019-afc0-33f79a2627d0"
+  default = "arn:aws:kms:us-east-1:869522244151:key/xxxxxxx-4019-afc0-xxf79a2627d0"
 
 }
 
