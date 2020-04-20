@@ -39,8 +39,12 @@ resource "aws_s3_bucket" "bucket" {
       }
     }
   }
+      
+    tags = {
+    name             = "Sentinel-Test-Bucket"
+    Owner            = "demouser@sathish.com"
+  }  
  
-
 }
 
 output "sse_algorithm" {
