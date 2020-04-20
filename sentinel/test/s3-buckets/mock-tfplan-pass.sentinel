@@ -36,7 +36,7 @@ _modules = {
 									},
 								],
 								"tags": {
-									"owner": "demouser@sathish.com",
+									"owner": "demouser@someemail.com",
 									"Name":  "Sentinel-Test-Bucket",
 								},
 								"website": [],
@@ -180,7 +180,7 @@ _modules = {
 							},
 							"tags.owner": {
 								"computed": false,
-								"new":      "demouser@sathish.com",
+								"new":      "demouser@someemail.com",
 								"old":      "",
 							},
 							"tags.Name": {
